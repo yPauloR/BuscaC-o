@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tulpen+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Wavefont:wght@100&display=swap');
+
+body {
+    text-align: center;
+    font-family: 'Black Ops One', cursive;
+    background-image: url(img/dalmatian.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1 {
+    background-color: azure;
+    margin-left: auto;
+    margin-right: auto;
+    width: 11%;
+    padding: 20px;
+    opacity: 90%;
+}
+
+label {
+    color: rgb(0, 0, 0);
+    display: block;
+}
+
+input, select {
+    margin-top: 5px;
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+#success-msg {
+    color: rgb(255, 153, 0);
+    display: none;
+}
+
+#txt-over-image {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    display: none;
+}
+
+#dogImg {
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto;
+    display: block; 
+}
+
+form {
+    background-color: rgba(230, 230, 168, 0.8);
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center; 
+}
+
+#btnsave {
+    border: none;
+    border-radius: 20px;
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px;
+    background-color: #ff9900;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#btnsave:hover {
+    background-color: #ff6600;
+}

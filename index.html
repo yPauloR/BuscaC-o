@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Busca Dogs</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+    <h1>Busk Dog$</h1>
+    <form id="dog-form">
+        <label id="labelName">Nome do Cachorro:</label>
+        <!-- Input Nome -->
+        <input type="text" placeholder="Nome do seu Dog$" id="dogname" name="name">
+        <br><br>
+
+        <label id="labelBreed" for="breed-select">Raça:</label>
+        <!-- Select Raça -->
+        <select id="selectbreed" name="breed">
+            <option value="" disabled selected>Raça do seu Dog$</option>
+            <option value="mountain/bernese">Bernese</option>
+            <option value="pomeranian">Lulu</option>
+            <option value="dachshund">Salsicha (Dashoud)</option>
+            <option value="husky">Husky Siberiano</option>
+            <option value="malamute">Malamute do Alaska</option>
+        </select>
+        <br><br>
+
+        <label for="font-color">Cor da Fonte:</label>
+        <!-- Select Cor -->
+        <select id="font-color-select" name="fontColor">
+            <option value="" disabled selected>Selecione a cor da Fonte</option>
+            <option value="black">Preto</option>
+            <option value="red">Vermelho</option>
+            <option value="blue">Azul</option>
+            <option value="green">Verde</option>
+            <option value="purple">Roxo</option>
+        </select>
+        <br><br>
+
+        <label for="font-select">Fonte: </label>
+        <!-- Select Fonte -->
+        <select id="font-select" name="font">
+            <option value="" disabled selected>Selecione o estilo de Fonte</option>
+            <option value="Roboto">Roboto</option>
+            <option value="Noto Sans JP">Noto</option>
+            <option value="Tulpen One">Tulpen One</option>
+            <option value="Black Ops One">Black Ops</option>
+            <option value="Wavefont">Wavefont</option>
+        </select>
+        <br><br>
+
+        <!-- Texto Sobre a Imagem -->
+        <div id="txt-over-image"></div>
+
+        <!-- Imagem do Cachorro -->
+        <img id="dogImg" src="" alt="Imagem do Cachorro">
+        <br><br>
+
+        <!-- Botão Salvar -->
+        <button type="button" id="btnsave">Salvar</button>
+    </form>
+
+    <div id="success-msg" style="display: none;">Informações salvas com sucesso!</div>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="js/script.js" defer></script>
+</body>
+
+</html>
